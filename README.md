@@ -15,4 +15,4 @@ node index.js
 ## Struktur Folder
 - `index.js` : CLI interface
 - `logic.js` : fungsi utama
-- `dictionary.js` : kamus mapping
+- `web_version.html` : Dijalankan di browser
