@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Character Converter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
+  <div class="bg-white p-6 rounded-xl shadow-xl w-full max-w-2xl">
+    <h1 class="text-2xl font-bold mb-4">Character Converter Tool</h1>
+    <label class="block font-semibold mb-2">Masukkan Kalimat:</label>
+    <input id="inputText" type="text" class="w-full border p-2 rounded mb-4" placeholder="Contoh: Titanic" />
+    <button onclick="processInput()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Proses</button>
+    <div id="output" class="mt-6 text-sm"></div>
+  </div>
+  <script src="logic.js"></script>
+</body>
+</html>
